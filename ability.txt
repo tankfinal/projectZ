@@ -1,0 +1,40 @@
+﻿
+//轉換form的date
+var tableName = new FormData(document.getElementById('tableName'));
+
+
+//transform hour into Time?
+java.sql.Time myTime = java.sql.Time.valueOf(hour1);
+
+//lock port
+netstat -ano  pid
+		
+//常用過濾
+.replace(/,/g,"") //過濾符號
+.replace(/[^0-9,]*/g,"") //過濾除了數字跟逗號以外所有字
+.replace(/[\u4E00-\u9FA5]/g,"") //過濾所有中文
+.replace(/[0-9]/g,"") //過濾所有中文
+
+//驗證該變數是否有定義
+var val 
+if(typeof(val) !== 'undefined'){
+	alert("有值");
+}else{
+	alert("沒定義");
+}
+//驗證中文
+function verifiedChinese(data){
+	var patrn=/[\u4E00-\u9FA5]|[\uFE30-\uFFA0]/gi;  
+	if(patrn.test(data)){
+		return false;
+	}else{
+		return true;
+	}
+}
+
+//其他技術
+((Doubtdoc) doubtdoc.get(0)).getDocDate()
+
+//List<Map<String, Object>> jobPerformances = JSONUtils.fromJson(param.get("data").toString(), new ArrayList<Map<String, Object>>().getClass());
+
+//new Gson().fromJson(jsonStr, className)
